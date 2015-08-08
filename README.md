@@ -1,8 +1,9 @@
 # submod
 
-A subtitle toolkit for modifing synchronization, encoding, etc.
+[![npm version](https://img.shields.io/npm/v/submod.svg)](http://www.npmjs.com/package/submod)
+[![dependency status](https://david-dm.org/amio/node-submod.svg)](https://david-dm.org/amio/node-submod)
 
-Support ass/ssa/srt subtitles.
+A subtitle(ass/srt) toolkit for modifing synchronization, encoding, etc.
 
 ### Install
 
