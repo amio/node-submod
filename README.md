@@ -12,6 +12,7 @@ npm install -g submod
 
 ### Usage
 
+Decrease subtitle delay by 134.7 seconds.
 ```bash
-submod sync *.ass :-134.7
+$ submod sync *S5E01*.ass :-134.7
 ```
