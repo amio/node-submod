@@ -1,6 +1,6 @@
 {
   "name": "submod",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "preferGlobal": "true",
   "description": "A subtitle toolkit for modifing synchronization, encoding, etc.",
   "keywords": [
@@ -35,6 +35,5 @@
     "chalk": "^1.1.0",
     "commander": "^2.8.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
