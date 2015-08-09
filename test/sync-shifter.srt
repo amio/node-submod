@@ -1,0 +1,23 @@
+1
+00:00:13,560 --> 00:00:19,190
+Hello everyone and welcome to this gamescon 2015 presentation of MGSV The Phantom Pain.
+
+2
+00:00:19,200 --> 00:00:24,340
+Today, with just a month left til launch, we want to reveal the specifics of developing Snake's Mother Base
+
+3
+00:00:24,340 --> 00:00:30,780
+and how you can manage Diamond Dogs to develop new equipment and abilities to support you while in the field.
+
+4
+00:00:31,860 --> 00:00:37,300
+We'll also introduce you to the game's massively multiplayer online mode - the FOB system.
+
+5
+00:00:40,820 --> 00:00:46,220
+What you see here is Snake's new Mother Base - home of his new military force, Diamond Dogs.
+
+6
+00:00:46,340 --> 00:00:52,040
+As you gather personnel and resources you can expand the base, which will in-turn allow Diamond Dogs to support you in the field.
