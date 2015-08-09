@@ -9,14 +9,15 @@
     "cli"
   ],
   "bin": {
-    "submod": "lib/cli.js"
+    "submod": "lib/index.js"
   },
   "main": "lib/index.js",
   "engines": {
     "node": ">=0.12"
   },
   "scripts": {
-    "test": "tap test/**/*.js"
+    "test": "tap test/**/*.js",
+    "preversion": "npm run test"
   },
   "homepage": "https://github.com/amio/node-submod",
   "author": {
@@ -35,5 +36,7 @@
     "chalk": "^1.1.0",
     "commander": "^2.8.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "^4.0.3"
+  }
 }
