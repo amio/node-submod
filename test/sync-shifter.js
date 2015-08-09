@@ -1,5 +1,5 @@
 const tape = require('tape')
-const shifter = require('../lib/sync-shifter')
+const shifter = require('../lib/sync-shifter').shift
 const fs = require('fs')
 const path = require('path')
 
