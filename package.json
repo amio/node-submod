@@ -16,7 +16,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "tap test/**/*.js",
+    "test": "tape test/**/*.js",
     "preversion": "npm run test",
     "patch": "npm version patch -m 'v%s'",
     "minor": "npm version minor -m 'v%s'",
