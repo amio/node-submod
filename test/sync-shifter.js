@@ -9,7 +9,7 @@ tape.test('sync-shifter', function (t) {
     tt.ok(typeof shifter === 'function')
 
     const subtitle = fs.readFileSync(
-      path.join(__dirname, './sync-shifter.srt'),
+      path.join(__dirname, './sync-shifter.source.srt'),
       { encoding: 'utf8' }
     )
     const expected = fs.readFileSync(
@@ -26,7 +26,7 @@ tape.test('sync-shifter', function (t) {
     tt.ok(typeof shifter === 'function')
 
     const subtitle = fs.readFileSync(
-      path.join(__dirname, './sync-shifter.ass'),
+      path.join(__dirname, './sync-shifter.source.ass'),
       { encoding: 'utf8' }
     )
     const expected = fs.readFileSync(
