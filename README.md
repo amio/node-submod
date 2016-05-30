@@ -10,6 +10,10 @@ npm install -g submod
 
 ### Usage
 
+##### `submod sync <subtitles> <delta>`
+
+Adjust subtitles delay by delta(in seconds), and save to a new file with suffix ".submod".
+
 ```shell
 # Decrease subtitle delay by 134.7 seconds:
 $ submod sync *S5E01*.ass :-134.7
