@@ -9,7 +9,7 @@ tape.test('bin', function (t) {
   //
   t.test('should return the version', function (tt) {
     const cp = execFile('node', [bin, '--version'])
-    const expected = pkg.version
+    const expected = 'v' + pkg.version
 
     cp.stdout.on('data', function (data) {
       tt.equal(data.replace(/\r\n|\n/g, ''), expected)
