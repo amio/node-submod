@@ -16,7 +16,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "tape test/**/*.js",
+    "test": "tape test/**/*.js | faucet",
     "preversion": "npm run test",
     "patch": "npm version patch -m 'v%s'",
     "minor": "npm version minor -m 'v%s'",
@@ -27,6 +27,7 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
+    "faucet": "0.0.1",
     "tape": "^4.0.3"
   },
   "license": "MIT",
