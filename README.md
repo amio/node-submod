@@ -4,8 +4,8 @@ A subtitle(ass/srt) toolkit for modifing synchronization, encoding(TBD), etc.
 
 ### Install
 
-```bash
-npm install -g submod
+```shell
+$ npm install -g submod
 ```
 
 ### Usage
