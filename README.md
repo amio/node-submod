@@ -19,7 +19,7 @@ Adjust subtitles delay by delta(in seconds), and save to a new file with suffix 
 $ submod sync *S5E01*.ass :-134.7
 
 # Increase subtitle delay by 11.1 seconds:
-$ submod sync *S5E01*.ass :+11.1
+$ submod sync *S5E01*.srt :+11.1
 ```
 
 ### License
