@@ -15,6 +15,7 @@
     "node": ">=4"
   },
   "scripts": {
+    "pretest": "standard lib/*.js",
     "test": "tape test/**/*.js | faucet",
     "preversion": "npm run test",
     "patch": "npm version patch -m 'v%s'",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "faucet": "0.0.1",
+    "standard": "^8.1.0",
     "tape": "^4.6.0"
   },
   "license": "MIT",
