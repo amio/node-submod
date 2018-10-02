@@ -1,33 +1,33 @@
 {
   "name": "submod",
   "version": "0.4.2",
-  "preferGlobal": "true",
+  "license": "MIT",
+  "repository": "amio/node-submod",
+  "author": "Amio <amio.cn@gmail.com>",
+  "homepage": "https://github.com/amio/node-submod",
+  "bugs": "https://github.com/amio/node-submod/issues",
   "description": "A subtitle toolkit for modifing synchronization, encoding, etc.",
+  "preferGlobal": "true",
   "bin": "lib/index.js",
   "scripts": {
     "pretest": "standard lib/*.js",
     "test": "tape test/**/*.js | faucet"
   },
   "dependencies": {
-    "chalk": "^1.1.0",
+    "chalk": "^2.4.1",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
-    "standard": "^8.1.0",
-    "tape": "^4.6.0"
+    "standard": "^12.0",
+    "tape": "^4.6"
   },
   "engines": {
     "node": ">=4"
   },
-  "license": "MIT",
-  "repository": "amio/node-submod",
-  "author": "Amio <amio.cn@gmail.com>",
-  "homepage": "https://github.com/amio/node-submod",
-  "bugs": "https://github.com/amio/node-submod/issues",
   "keywords": [
     "subtitle",
     "sync",
     "cli"
-  ],
+  ]
 }
