@@ -3,7 +3,7 @@ const path = require('path')
 const execFile = require('child_process').execFile
 
 const pkg = require('../package.json')
-const bin = path.join(__dirname, '../', pkg.bin.submod)
+const bin = path.join(__dirname, '..', pkg.bin)
 
 tape.test('bin', function (t) {
   t.test('should return the version', function (tt) {
