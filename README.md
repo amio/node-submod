@@ -1,4 +1,4 @@
-# submod [![npm version](https://img.shields.io/npm/v/submod.svg?style=flat-square)](http://www.npmjs.com/package/submod)
+# submod [![npm version][npm-version-src]][npm-version-href]
 
 A subtitle(ass/srt) toolkit for modifing synchronization, encoding(TBD), etc.
 
@@ -24,4 +24,8 @@ $ submod sync *S5E01*.srt :+11.1
 
 ### License
 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![GitHub license][license-src]](LICENSE)
+
+[license-src]: https://flat.badgen.net/npm/license/submod
+[npm-version-src]: https://flat.badgen.net/npm/v/submod
+[npm-version-href]: http://www.npmjs.com/package/submod
