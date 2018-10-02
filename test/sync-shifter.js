@@ -40,5 +40,4 @@ tape.test('sync-shifter', function (t) {
 
     tt.end()
   })
-
 })
